@@ -1,0 +1,7 @@
+services:
+  chall:
+    build: .
+    ports:
+      - 22222:22222
+    privileged: true
+    restart: always
